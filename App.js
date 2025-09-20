@@ -1,18 +1,17 @@
-// App.js
-import React from 'react';
-import { SafeAreaView, ScrollView } from 'react-native';
-import CounterApp from './CounterApp';
-import ColorChangeApp from './ColorChangeApp';
+import { View, StyleSheet,SafeAreaView,ScrollView } from 'react-native';
+import SimpleCommentApp from './simpleCommentApp';
 
-export default function App() {
-  return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <ScrollView>
-        <CounterApp />
-        <ColorChangeApp />
-        
-      </ScrollView>
+import MessageApp from './MessagerApp';
+export default function App(){
+  return(
   
-    </SafeAreaView>
-  );
+    <SafeAreaView style={styles.container}>
+
+       <SimpleCommentApp/>
+           <MessageApp/>
+</SafeAreaView>
+    );
 }
+const styles = StyleSheet.create({
+  container:{flex: 1}
+})
