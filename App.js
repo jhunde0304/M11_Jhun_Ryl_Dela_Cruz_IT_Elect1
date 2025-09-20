@@ -11,6 +11,8 @@ export default function App() {
         <CounterApp />
         <ColorChangeApp />
       </ScrollView>
+      
+      
     </SafeAreaView>
   );
 }
