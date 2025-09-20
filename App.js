@@ -4,6 +4,7 @@ import SimpleCommentApp from './simpleCommentApp';
 import MessageApp from './MessagerApp';
 export default function App(){
   return(
+    
   
     <SafeAreaView style={styles.container}>
 
