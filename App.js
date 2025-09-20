@@ -10,11 +10,9 @@ export default function App() {
       <ScrollView>
         <CounterApp />
         <ColorChangeApp />
+        
       </ScrollView>
-      
-      
-      
-      
+  
     </SafeAreaView>
   );
 }
