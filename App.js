@@ -1,7 +1,7 @@
 import { View, StyleSheet,SafeAreaView,ScrollView } from 'react-native';
 import SimpleCommentApp from './simpleCommentApp';
 
-import MessageApp from './MessagerApp';
+import MessageApp from './MessengerApp';
 export default function App(){
   return(
     
@@ -9,7 +9,7 @@ export default function App(){
     <SafeAreaView style={styles.container}>
 
        <SimpleCommentApp/>
-           <MessageApp/>
+           <MessengerApp/>
 </SafeAreaView>
     );
 }
